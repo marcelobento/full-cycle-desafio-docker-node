@@ -1,0 +1,18 @@
+#peoples {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#peoples td, #peoples th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#peoples tr:nth-child(even){background-color: #f2f2f2;}
+#peoples tr:hover {background-color: #ddd;}
+#peoples th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e0ac00;
+    color: white;
+}
