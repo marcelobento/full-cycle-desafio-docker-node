@@ -20,6 +20,9 @@ services:
       dockerfile: Dockerfile.desafio
     container_name: app
     entrypoint: dockerize -wait tcp://db:3306 -timeout 20s docker-entrypoint.sh
+    command: >
+      bash -c "npm install
+      && npm start"
     tty: true
     networks:
       - node-network
